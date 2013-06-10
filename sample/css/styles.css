@@ -1,0 +1,90 @@
+body {
+    color: #c6c8c8;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    -webkit-touch-callout: none;
+    /*-webkit-tap-highlight-color: rgb(0, 0, 0);*/
+}
+
+.topcoat-icon--unlink {
+    background: url("../topcoat/img/unlock.svg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.topcoat-icon--back {
+    background: url("../topcoat/img/back_light.svg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+#scroller {
+    position: absolute;
+    top: 64px;
+    bottom: 0px;
+    left: 0px;
+    width: 300px;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    border-right: solid 1px #3b3e40;
+}
+
+#filePath {
+    position: absolute;
+    top: 64px;
+    left: 301px;
+    right: 0px;
+}
+
+#content {
+    position: absolute;
+    top: 100px;
+    bottom: 4px;
+    left: 305px;
+    right:0px;
+    padding:0;
+    margin:0;
+}
+
+#fileList {
+    width: 300px;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+#fileList li {
+    width: 300px;
+    padding: 0px;
+    margin: 0px;
+    clear: both;
+}
+
+#fileList li a {
+    width: 300px;
+    padding: 18px 0px 18px 0px !important;
+    display: inline-block;
+}
+
+#fileList li a img {
+    float: left;
+    height: 30px;
+    margin-left: 12px;
+    margin-right: 10px;
+    margin-top: -4px;
+    opacity: .7;
+}
+.topcoat-list__container,
+ul {
+    border-top: none !important;
+}
+
+.topcoat-list__container {
+    border-bottom: none;
+    clear: both;
+}
